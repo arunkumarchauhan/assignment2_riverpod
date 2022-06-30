@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.black87),
           ),
           splashColor: Colors.lightGreen),
-      initialRoute: AppUrls.home3,
+      initialRoute: AppUrls.home,
       routes: {
         AppUrls.home: (_) => const PostListScreen(),
         AppUrls.home3: (_) => const PostListScreen3(),
